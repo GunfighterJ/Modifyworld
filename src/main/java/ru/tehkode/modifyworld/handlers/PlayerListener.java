@@ -186,7 +186,7 @@ public class PlayerListener extends ModifyworldListener {
 			return;
 		}
 
-		ItemStack take = holder.getInventory().getItem(event.getSlot());
+		ItemStack take = event.getCurentItem();
 
 		String action;
 		String op;
